@@ -15,6 +15,9 @@ Este es un proyecto basado en .NET 8 que utiliza Entity Framework Core para la g
 - SQL Server
 - Herramienta para probar APIs (como Postman o Swagger)
 
+> [!Nota]  
+> Swagger ya viene integrado.
+
 ## Instalación
 
 1. Clona este repositorio
@@ -37,7 +40,7 @@ Este es un proyecto basado en .NET 8 que utiliza Entity Framework Core para la g
 
   **Ejemplo de cuerpo de solicitud:**
   ```json
-	{ "fechaInicio": "2025-01-01T00:00:00", "fechaFin": "2025-12-31T23:59:59", "tipoMovimiento": "01", "nroDocumento": "12345678" }
+	{ "fechaInicio": "1999-01-01T00:00:00", "fechaFin": "2025-12-31T23:59:59", "tipoMovimiento": "01", "nroDocumento": "1" }
   ```
 
 - **GET /api/MovInventarios**  

@@ -15,7 +15,7 @@ Este es un proyecto basado en .NET 8 que utiliza Entity Framework Core para la g
 - SQL Server
 - Herramienta para probar APIs (como Postman o Swagger)
 
-> [!Nota]  
+> [!Note]  
 > Swagger ya viene integrado.
 
 ## Instalación
